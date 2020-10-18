@@ -74,13 +74,13 @@ extension MovieService: TargetType {
     var task: Task {
         switch self {
         case .popular:
-            return .requestParameters(parameters: ["api_key": "661290a964f218a732bf3fd1ccf856aa", "language": "en-US", "page": "1"], encoding: URLEncoding.queryString)
+            return .requestParameters(parameters: ["api_key": "YOUR API KEY", "language": "en-US", "page": "1"], encoding: URLEncoding.queryString)
         case .upcoming:
-            return .requestParameters(parameters: ["api_key": "661290a964f218a732bf3fd1ccf856aa", "language": "en-US", "page": "1"], encoding: URLEncoding.queryString)
+            return .requestParameters(parameters: ["api_key": "YOUR API KEY", "language": "en-US", "page": "1"], encoding: URLEncoding.queryString)
         case .topRated:
-            return .requestParameters(parameters: ["api_key": "661290a964f218a732bf3fd1ccf856aa", "language": "en-US", "page": "1"], encoding: URLEncoding.queryString)
+            return .requestParameters(parameters: ["api_key": "YOUR API KEY", "language": "en-US", "page": "1"], encoding: URLEncoding.queryString)
         case .discover:
-            return .requestParameters(parameters: ["api_key": "661290a964f218a732bf3fd1ccf856aa", "language": "en-US", "page": "1", "sort_by": "popularity.desc", "include_adult": "true", "include_video" : "false"], encoding: URLEncoding.queryString)
+            return .requestParameters(parameters: ["api_key": "YOUR API KEY", "language": "en-US", "page": "1", "sort_by": "popularity.desc", "include_adult": "true", "include_video" : "false"], encoding: URLEncoding.queryString)
         }
     }
     
