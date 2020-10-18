@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.2.2)
+  - DZNEmptyDataSet (1.8.1)
+  - JGProgressHUD (2.1)
+  - Kingfisher (5.14.1):
+    - Kingfisher/Core (= 5.14.1)
+  - Kingfisher/Core (5.14.1)
+  - Loaf (0.5.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Shuffle-iOS (0.4.0)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - JGProgressHUD
+  - Kingfisher
+  - Loaf
+  - Moya
+  - Shuffle-iOS
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DZNEmptyDataSet
+    - JGProgressHUD
+    - Kingfisher
+    - Loaf
+    - Moya
+    - Shuffle-iOS
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
+  Loaf: 0800b444431366bc395d54267975d4ad4ad5c99c
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Shuffle-iOS: 87e4d3503475f3d684a375358649911e36fe139f
+
+PODFILE CHECKSUM: 9d782acbb3a59802556738b8eb5c9ca85562a505
+
+COCOAPODS: 1.9.1
