@@ -1,6 +1,11 @@
 # Movies-for-iOS
 Search and discover for popular, upcoming and top rated movies
 
+## Features ##
+* See the most popular, top rated and upcoming movies
+* Discover and search for the best movies
+* Add movies to your favorite (watch list) to see it later
+
 ## Installation ##
 * Git and clone <br/>
 ```bash
